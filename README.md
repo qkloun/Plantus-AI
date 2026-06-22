@@ -16,3 +16,23 @@ PlantusAI is a deep learning application that uses convolutional neural networks
 - **Backend:** Flask
 - **Language:** Python 3.11
 - **Model:** MobileNetV2 with Transfer Learning
+
+## Project Structure
+
+```
+├── Plantus-AI/
+│   ├── Models
+│   │   ├── class_indices.json
+│   │   ├── plantusAI_model_FINAL.keras
+│   ├── Venv/
+│   ├── static/
+│   │   ├── css/
+│   │   │   ├── style.css
+│   │   ├── uploads/
+│   ├── templates/
+│   │   ├── about.html
+│   │   ├── base.html
+│   │   ├── index.html
+├── Plantus.py
+└── plantus_app.py
+```
