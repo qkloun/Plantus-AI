@@ -28,7 +28,6 @@ PlantusAI is a deep learning application that uses convolutional neural networks
 │   ├── static/
 │   │   ├── css/
 │   │   │   ├── style.css
-│   │   ├── uploads/
 │   ├── templates/
 │   │   ├── about.html
 │   │   ├── base.html
