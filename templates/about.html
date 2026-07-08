@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block title %}About - Plantus AI{% endblock %}
+
+{% block content %}
+<div class="about">
+
+    <div class="about-hero">
+        <h2>About Plantus AI</h2>
+        <p>A deep learning application for real-time plant disease detection</p>
+    </div>
+
+    <div class="about-body">
+
+        <div class="about-intro card">
+            <p>PlantusAI uses Convolutional Neural Networks (CNN) with MobileNetV2 transfer learning to identify plant diseases instantly from a photo. Built to help farmers and gardeners catch plant health issues early and accurately.</p>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-num">95%+</span>
+                <span class="metric-label">Validation accuracy</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-num">38</span>
+                <span class="metric-label">Disease classes</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-num">70k+</span>
+                <span class="metric-label">Training images</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-num">&lt;500ms</span>
+                <span class="metric-label">Response time</span>
+            </div>
+        </div>
+
+        <div class="about-sections">
+
+            <div class="card">
+                <div class="section-header">
+                    <span class="section-icon">🛠️</span>
+                    <h3>Tech stack</h3>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <span class="tech-label">Backend</span>
+                        <span class="tech-value">Flask · Python 3.11</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">ML</span>
+                        <span class="tech-value">TensorFlow 2.16 · Keras</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">Frontend</span>
+                        <span class="tech-value">HTML5 · CSS3 · JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">Image processing</span>
+                        <span class="tech-value">OpenCV</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">Deployment</span>
+                        <span class="tech-value">Docker</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">Architecture</span>
+                        <span class="tech-value">MobileNetV2 + Transfer Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="section-header">
+                    <span class="section-icon">🚀</span>
+                    <h3>Features</h3>
+                </div>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-dot"></span>
+                        Real-time plant disease detection
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot"></span>
+                        Upload image or use camera capture
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot"></span>
+                        Confidence scoring per prediction
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot"></span>
+                        Top 5 predictions with probabilities
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot"></span>
+                        REST API for integration
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot"></span>
+                        Responsive web interface
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
